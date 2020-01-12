@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css?family=East+Sea+Dokdo|Gelasio&display=swap");
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Gelasio", serif;
+    background-image: url("img/stone.png");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.082);
+}
+
+.menu {
+    position: fixed;
+    width: 100%;
+}
+
+.menu ul {
+    margin: 0;
+    background: rgba(0, 0, 0, 0.753);
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+}
+
+.menu a {
+    display: block;
+    font-family: "East Sea Dokdo", cursive;
+    font-size: 2rem;
+    text-decoration: none;
+    /* border: 1px solid white; */
+    color: white;
+    padding: 1rem;
+    transition: background-color 0.3s;
+}
+
+.menu a:hover {
+    background-color: rgba(255, 255, 255, 0.151);
+}
+
+.obrazek {
+    height: 420px;
+    width: 820px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.obrazek-domu {
+    background-image: url("img/domu.jpg");
+}
+.obrazek-recepty {
+    background-image: url("img/recepty.jpg");
+}
+.obrazek-poklady {
+    background-image: url("img/poklady.jpg");
+}
+.obrazek-mapa {
+    background-image: url("img/mapa.jpg");
+}
+
+.obsah {
+    /* border: 3px dotted limegreen; */
+    width: 820px;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+}
+
+.obal {
+    background-color: rgba(255, 252, 239, 0.863);
+    padding: 2rem;
+}
+
+.obal strong {
+    font-size: 1.2rem;
+}
+
+.obal img {
+    max-width: 760px;
+}
+
+.obal p {
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+    text-indent: 2rem;
+}
+
+.paticka {
+    height: 300px;
+    width: 100%;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    background: black url("img/goblins.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.rozdelovac,
+.velky-rozdelovac {
+    width: 100%;
+    height: 5rem;
+    /* border: 1px solid red; */
+    background: transparent url("img/rozdelovac.png") no-repeat center;
+    filter: opacity(50%);
+}
+
+.velky-rozdelovac {
+    height: 10rem;
+}
+
+.paticka {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.paticka .text {
+    color: white;
+}
